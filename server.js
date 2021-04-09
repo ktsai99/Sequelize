@@ -3,7 +3,7 @@ import db from './database/initializeDB.js';
 import apiRoutes from './routes/apiRoutes.js';
 
 const app = express();
-const staticFolder = './public';
+const staticFolder = 'public';
 const PORT = process.env.PORT || 3000;
 
 app.use(express.urlencoded({ extended: true }));

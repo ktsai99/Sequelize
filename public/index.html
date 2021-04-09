@@ -5,8 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Kevin Tsai</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
-    <link rel="stylesheet" href="./style.css" />
-</head>
+        <link rel="stylesheet" href="./style.css" />
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
+    </head>
   <body>
       
     <section class="hero">
@@ -17,11 +18,18 @@
 
         </div>
       </section>
+    <div id="chartContainer" style="height: 370px; width: 50%;"></div>
     <table class="table is-stripped">
       <thead>
         <tr>
+          <th>Meal id</th>
           <th>Name</th>
-          <th>Location</th>
+          <th>Calories</th>
+          <th>Carbs</th>
+          <th>Sodium</th>
+          <th>Protein</th>
+          <th>Fat</th>
+          <th>Cholesterol</th>
         </tr>
         <tbody>
 
